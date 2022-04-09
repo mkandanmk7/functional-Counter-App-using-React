@@ -10,10 +10,12 @@ function App() {
   return (
     <div className="main_container">
 
+
       <h3>Learing functional Component</h3>
       <h5>My name is {name}</h5>
 
       <br />
+      <Counter />
       <Counter />
 
 
