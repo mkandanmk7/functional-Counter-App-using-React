@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./Counter.css";
 function Counter() {
     // array destructure
@@ -17,6 +17,12 @@ function Counter() {
             setCountValue(countValue - 1);
         }
     }
+
+    useEffect(() => {
+        console.log("mutu manikanda");
+
+    }, [])
+
 
 
     return (
